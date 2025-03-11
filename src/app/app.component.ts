@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +12,13 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'boda-alejandra';
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
+  ngOnInit(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      import('flowbite').then(flowbite => {
+        flowbite.initFlowbite();
+      });
+    }
+  }
 }

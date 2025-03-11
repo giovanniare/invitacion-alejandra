@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --natural-sel: #C9AF9E;
+    --gold-sel: #B98651;
+    --mocha-sel: #A25C43;
+    --copper-sel: #CB6439;
+}
+
+.text-mocha {
+    color: var(--mocha-sel);
+}
+
+.text-gold {
+    color: var(--gold-sel);
+}
+
+.home-bg {
+    background-image: url('../assets/2-1.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.very-top {
+    z-index: 999999;
+}
+

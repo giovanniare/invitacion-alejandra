@@ -16,6 +16,7 @@ export class AppComponent {
 
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
+      document.documentElement.classList.remove('dark');
       import('flowbite').then(flowbite => {
         flowbite.initFlowbite();
       });

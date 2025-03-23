@@ -13,6 +13,12 @@
     --copper-sel: #CB6439;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .text-mocha {
     color: var(--mocha-sel);
 }
@@ -23,10 +29,12 @@
 
 .home-bg {
     background-image: url('../assets/2-1.png');
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    min-height: 100vh;
+    height: 100svh;
 }
 
 .very-top {

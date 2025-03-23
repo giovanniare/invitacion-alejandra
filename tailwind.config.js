@@ -3,8 +3,8 @@ module.exports = {
     "./src/**/*.{html,ts}",
     "./node_modules/flowbite/**/*.js"
   ],
+  darkMode: false,
   theme: {
-    darkMode: false,
     extend: {
       colors: {
         'mocha-sel': '#A25C43',

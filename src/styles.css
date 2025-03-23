@@ -29,11 +29,6 @@
     background-attachment: fixed;
 }
 
-.full-screen {
-    height: 100svh; /* Mejor que 100vh en iOS Safari moderno */
-    min-height: -webkit-fill-available; /* Compatibilidad extra */
-}
-
 .very-top {
     z-index: 999999;
 }

@@ -1,0 +1,16 @@
+#default-carousel .relative.h-56 {
+    height: 600px; /* Ajusta según sea necesario */
+  }
+  
+  #default-carousel .overflow-hidden {
+    display: flex;
+    flex-direction: column; /* Hace que los elementos se apilen en columna */
+    height: 100%;
+  }
+  
+  #default-carousel [data-carousel-item] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease-in-out;
+  }

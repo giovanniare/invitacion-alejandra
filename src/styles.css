@@ -32,3 +32,29 @@
     z-index: 999999;
 }
 
+
+.bg-style {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.josefin-sans-type {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.josefin-sans-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

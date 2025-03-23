@@ -1,6 +1,10 @@
 .titulo-principal {
     font-family: "Euphoria Script", cursive;
-    font-weight: 2000;
+    font-weight: 700;
     font-style: normal;
     font-size: 800%;
+}
+
+.text-box {
+    background-color: rgb(201, 175, 158, 0.7)
 }

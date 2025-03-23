@@ -21,4 +21,16 @@ export class AppComponent {
       });
     }
   }
+
+  isMenuOpen = false; // Estado del menú
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+    console.log(this.isMenuOpen)
+  }
+
+  closeMenu() {
+    this.isMenuOpen = false; // Cierra el menú al hacer clic en un enlace
+    console.log(this.isMenuOpen)
+  }
 }

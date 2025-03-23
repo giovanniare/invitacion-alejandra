@@ -1,0 +1,17 @@
+.nombres {
+    font-family: "Euphoria Script", cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.gender {
+    font-family: "Euphoria Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.text-box {
+    background-color: rgb(0, 0, 0);
+}

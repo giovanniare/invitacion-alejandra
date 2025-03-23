@@ -23,9 +23,15 @@
 
 .home-bg {
     background-image: url('../assets/2-1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+}
+
+.full-screen {
+    height: 100svh; /* Mejor que 100vh en iOS Safari moderno */
+    min-height: -webkit-fill-available; /* Compatibilidad extra */
 }
 
 .very-top {

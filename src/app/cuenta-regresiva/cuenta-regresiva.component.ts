@@ -15,7 +15,7 @@ export class CuentaRegresivaComponent implements OnInit, OnDestroy {
   seconds: number = 0;
 
   private intervalId: any;
-  private targetDate = new Date('2025-06-25T16:00:00'); // 🗓️ Cambia por tu fecha
+  private targetDate = new Date('2025-07-25T16:00:00'); // 🗓️ Cambia por tu fecha
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
